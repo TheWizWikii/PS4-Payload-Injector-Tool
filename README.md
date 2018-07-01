@@ -30,4 +30,4 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 
 ### Compilar:
 
-*Necesitas tener visual studio 2015 o superior para poder compilar, mejorar o modificar esta aplicación
+*Necesitas tener visual studio 2015 o superior para poder compilar, mejorar o modificar este repositorio
