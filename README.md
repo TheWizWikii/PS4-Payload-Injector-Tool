@@ -10,6 +10,18 @@ Herramienta desarrollada en C# con la cual podremos inyectar / enviar nuestras c
 
 ---
 
+### Compatibilidad:
+
+Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
+
+- 1.76
+- 4.05
+- 4.55
+- 5.05
+- 5.07
+
+---
+
 ### Credits:
 
 - **#valentinbreiz**
