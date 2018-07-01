@@ -1,0 +1,49 @@
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe.config
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.pdb
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Data.v16.2.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Utils.v16.2.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Form1.resources
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Properties.Resources.resources
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csproj.GenerateResource.Cache
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.exe
+c:\users\manu\documents\visual studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.pdb
+C:\Users\Manu\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csprojResolveAssemblyReference.cache
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe.config
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.exe
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.pdb
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.pdb
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Form1.resources
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Properties.Resources.resources
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csproj.GenerateResource.Cache
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe.config
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.exe
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.pdb
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csprojResolveAssemblyReference.cache
+C:\Users\CYB3R\Documents\Visual Studio 2015\Projects\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4Lib.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.exe
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4 Payload inyector.pdb
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Data.v16.2.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.Utils.v16.2.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\bin\Debug\PS4Lib.dll
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csprojAssemblyReference.cache
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Form1.resources
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4_Payload_inyector.Properties.Resources.resources
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csproj.GenerateResource.cache
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csproj.CoreCompileInputs.cache
+C:\Users\CYB3R\Desktop\PS4 Payload inyector\PS4 Payload inyector\obj\Debug\PS4 Payload inyector.csproj.CopyComplete
