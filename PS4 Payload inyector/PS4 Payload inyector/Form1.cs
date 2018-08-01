@@ -22,7 +22,7 @@ namespace PS4_Payload_inyector
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DevExpress.XtraEditors.XtraMessageBox.Show("App Desarrollada por CYB3R");
+            DevExpress.XtraEditors.XtraMessageBox.Show("App v2 Desarrollada por CYB3R");
             iptxt.Text = ini.IniReadValue("ps4", "ip");//lee y deja la IP del .ini
             puertotxt.Text = ini.IniReadValue("ps4", "puerto");//lee y deja puesto el puerto del .ini
         }
@@ -174,6 +174,81 @@ namespace PS4_Payload_inyector
         private void radioButton1_CheckedChanged(object sender, EventArgs e)//puerto 5.05
         {
             puertotxt.Text = "9020";
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)//traduccion al inglés
+        {
+            groupBox1.Text = "Connection";
+            btconectar.Text = "Connect";
+            mButton4.Text = "info ports";
+            mButton5.Text = "Save IP and Port";
+            groupBox2.Text = "Select and Send Payload";
+            mButton2.Text = "Search Payload";
+            mButton3.Text = "Send Payload";
+            label1.Text = "Status:";
+            lblestado.Text = "Not connected";
+            lblenviado.Text = "Not sent";
+            groupBox3.Text = "Language Selector";
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)//traduccion en español
+        {
+            groupBox1.Text = "Conexión";
+            btconectar.Text = "Conectar";
+            mButton4.Text = "Info Puertos";
+            mButton5.Text = "Guardar IP y Puerto";
+            groupBox2.Text = "Seleccionar y Enviar Payload";
+            mButton2.Text = "Buscar Payload";
+            mButton3.Text = "Enviar Payload";
+            label1.Text = "Estado:";
+            lblestado.Text = "No Conectado";
+            lblenviado.Text = "No Enviado";
+            groupBox3.Text = "Selector de Idioma";
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)//traduccion en frances
+        {
+            groupBox1.Text = "Connexion";
+            btconectar.Text = "Connecter";
+            mButton4.Text = "Info sur le port";
+            mButton5.Text = "Salvar IP e Porta";
+            groupBox2.Text = "Sélectionner et envoyer la charge utile";
+            mButton2.Text = "Trouver Payload";
+            mButton3.Text = "Envoyer Payload";
+            label1.Text = "statut:";
+            lblestado.Text = "Non connecté";
+            lblenviado.Text = "Non soumis";
+            groupBox3.Text = "Sélecteur de langue";
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)//traduccion portuges
+        {
+            groupBox1.Text = "Conexão";
+            btconectar.Text = "Conectar";
+            mButton4.Text = "Info portas";
+            mButton5.Text = "sauvegarder IP et le port";
+            groupBox2.Text = "Selecione e envie o payload";
+            mButton2.Text = "Buscar Payload";
+            mButton3.Text = "Enviar Payload";
+            label1.Text = "status:";
+            lblestado.Text = "não conectado";
+            lblenviado.Text = "não enviado";
+            groupBox3.Text = "Seletor de Idiomas";
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)//traduccion aleman
+        {
+            groupBox1.Text = "Verbindung";
+            btconectar.Text = "verbinden";
+            mButton4.Text = "Info-Ports";
+            mButton5.Text = "Speichern Sie IP und Port";
+            groupBox2.Text = "Nutzlast auswählen und senden";
+            mButton2.Text = "finden Payload";
+            mButton3.Text = "senden Payload";
+            label1.Text = "Status:";
+            lblestado.Text = "nicht verbunden";
+            lblenviado.Text = "nicht gesendet";
+            groupBox3.Text = "Sprachauswahl";
         }
     }
 }
