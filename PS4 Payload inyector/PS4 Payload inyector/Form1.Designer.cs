@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.rb176 = new System.Windows.Forms.RadioButton();
             this.rb405 = new System.Windows.Forms.RadioButton();
@@ -69,6 +70,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.rb176);
             this.groupBox1.Controls.Add(this.rb405);
@@ -81,17 +83,31 @@
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox1.Location = new System.Drawing.Point(22, 247);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(350, 179);
+            this.groupBox1.Size = new System.Drawing.Size(375, 179);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Conexión";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Tahoma", 7F);
+            this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.radioButton2.Location = new System.Drawing.Point(293, 26);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(61, 21);
+            this.radioButton2.TabIndex = 28;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "6.72";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Tahoma", 7F);
             this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.radioButton1.Location = new System.Drawing.Point(243, 26);
+            this.radioButton1.Location = new System.Drawing.Point(224, 26);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(61, 21);
             this.radioButton1.TabIndex = 27;
@@ -105,7 +121,7 @@
             this.rb176.AutoSize = true;
             this.rb176.Font = new System.Drawing.Font("Tahoma", 7F);
             this.rb176.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rb176.Location = new System.Drawing.Point(42, 26);
+            this.rb176.Location = new System.Drawing.Point(17, 26);
             this.rb176.Name = "rb176";
             this.rb176.Size = new System.Drawing.Size(61, 21);
             this.rb176.TabIndex = 26;
@@ -119,7 +135,7 @@
             this.rb405.AutoSize = true;
             this.rb405.Font = new System.Drawing.Font("Tahoma", 7F);
             this.rb405.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rb405.Location = new System.Drawing.Point(109, 26);
+            this.rb405.Location = new System.Drawing.Point(86, 26);
             this.rb405.Name = "rb405";
             this.rb405.Size = new System.Drawing.Size(61, 21);
             this.rb405.TabIndex = 25;
@@ -133,7 +149,7 @@
             this.rb455.AutoSize = true;
             this.rb455.Font = new System.Drawing.Font("Tahoma", 7F);
             this.rb455.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.rb455.Location = new System.Drawing.Point(176, 26);
+            this.rb455.Location = new System.Drawing.Point(156, 26);
             this.rb455.Name = "rb455";
             this.rb455.Size = new System.Drawing.Size(61, 21);
             this.rb455.TabIndex = 24;
@@ -150,6 +166,7 @@
             this.puertotxt.Name = "puertotxt";
             this.puertotxt.Size = new System.Drawing.Size(179, 27);
             this.puertotxt.TabIndex = 2;
+            this.puertotxt.Text = "Puerto";
             // 
             // iptxt
             // 
@@ -159,6 +176,7 @@
             this.iptxt.Name = "iptxt";
             this.iptxt.Size = new System.Drawing.Size(179, 27);
             this.iptxt.TabIndex = 1;
+            this.iptxt.Text = "PS4 IP";
             // 
             // groupBox2
             // 
@@ -167,7 +185,7 @@
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox2.Location = new System.Drawing.Point(22, 441);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(350, 120);
+            this.groupBox2.Size = new System.Drawing.Size(375, 120);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Seleccionar y Enviar Payload";
@@ -178,7 +196,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(22, 17);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(350, 129);
+            this.pictureBox1.Size = new System.Drawing.Size(375, 129);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 18;
             this.pictureBox1.TabStop = false;
@@ -241,7 +259,7 @@
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(57, 27);
+            this.pictureBox3.Location = new System.Drawing.Point(69, 27);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(40, 38);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -253,7 +271,7 @@
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(103, 27);
+            this.pictureBox4.Location = new System.Drawing.Point(115, 27);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(40, 38);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -271,7 +289,7 @@
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox3.Location = new System.Drawing.Point(22, 152);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(350, 82);
+            this.groupBox3.Size = new System.Drawing.Size(375, 82);
             this.groupBox3.TabIndex = 28;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Selector de Idioma";
@@ -280,7 +298,7 @@
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(241, 27);
+            this.pictureBox7.Location = new System.Drawing.Point(253, 26);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(40, 38);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -292,7 +310,7 @@
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(195, 27);
+            this.pictureBox6.Location = new System.Drawing.Point(207, 27);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(40, 38);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -304,7 +322,7 @@
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(149, 27);
+            this.pictureBox5.Location = new System.Drawing.Point(161, 27);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(40, 38);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -317,7 +335,7 @@
             this.mButton3.ForeColor = System.Drawing.Color.White;
             this.mButton3.Location = new System.Drawing.Point(20, 68);
             this.mButton3.Name = "mButton3";
-            this.mButton3.Size = new System.Drawing.Size(308, 29);
+            this.mButton3.Size = new System.Drawing.Size(334, 29);
             this.mButton3.TabIndex = 6;
             this.mButton3.Text = "Enviar Payload";
             this.mButton3.Click += new System.EventHandler(this.mButton3_Click);
@@ -327,7 +345,7 @@
             this.mButton2.ForeColor = System.Drawing.Color.White;
             this.mButton2.Location = new System.Drawing.Point(20, 33);
             this.mButton2.Name = "mButton2";
-            this.mButton2.Size = new System.Drawing.Size(308, 29);
+            this.mButton2.Size = new System.Drawing.Size(334, 29);
             this.mButton2.TabIndex = 6;
             this.mButton2.Text = "Buscar Payload";
             this.mButton2.Click += new System.EventHandler(this.mButton2_Click);
@@ -337,27 +355,27 @@
             this.mButton5.ForeColor = System.Drawing.Color.White;
             this.mButton5.Location = new System.Drawing.Point(18, 129);
             this.mButton5.Name = "mButton5";
-            this.mButton5.Size = new System.Drawing.Size(310, 32);
+            this.mButton5.Size = new System.Drawing.Size(336, 32);
             this.mButton5.TabIndex = 7;
             this.mButton5.Text = "Guardar IP y Puerto";
             this.mButton5.Click += new System.EventHandler(this.mButton5_Click);
             // 
             // mButton4
             // 
-            this.mButton4.ForeColor = System.Drawing.Color.Gray;
+            this.mButton4.ForeColor = System.Drawing.Color.White;
             this.mButton4.Location = new System.Drawing.Point(204, 93);
             this.mButton4.Name = "mButton4";
-            this.mButton4.Size = new System.Drawing.Size(124, 27);
+            this.mButton4.Size = new System.Drawing.Size(150, 27);
             this.mButton4.TabIndex = 6;
             this.mButton4.Text = "Info Puertos";
             this.mButton4.Click += new System.EventHandler(this.mButton4_Click);
             // 
             // btconectar
             // 
-            this.btconectar.ForeColor = System.Drawing.Color.DarkRed;
+            this.btconectar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btconectar.Location = new System.Drawing.Point(204, 60);
             this.btconectar.Name = "btconectar";
-            this.btconectar.Size = new System.Drawing.Size(124, 27);
+            this.btconectar.Size = new System.Drawing.Size(150, 27);
             this.btconectar.TabIndex = 5;
             this.btconectar.Text = "Conectar";
             this.btconectar.Click += new System.EventHandler(this.mButton1_Click);
@@ -367,7 +385,7 @@
             this.ActiveGlowColor = System.Drawing.Color.DodgerBlue;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 667);
+            this.ClientSize = new System.Drawing.Size(421, 667);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblenviado);
@@ -431,6 +449,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 

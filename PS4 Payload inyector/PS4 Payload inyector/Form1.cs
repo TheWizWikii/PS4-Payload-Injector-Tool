@@ -11,8 +11,8 @@ namespace PS4_Payload_inyector
     public partial class Form1 : DevExpress.XtraEditors.XtraForm
     {
         PS4API PS4 = new PS4API();
-        public static string IP = "192.168.178.30";//IP Temporal
-        public static string Puerto = "9020";//Puerto Temporal
+        public static string IP = "";//IP Temporal
+        public static string Puerto = "";//Puerto Temporal
         IniFile ini = new IniFile(Application.StartupPath + @"\config.ini");//archivo de configuracion
         public Form1()
         {
@@ -22,7 +22,7 @@ namespace PS4_Payload_inyector
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            DevExpress.XtraEditors.XtraMessageBox.Show("App v2 Desarrollada por CYB3R");
+            DevExpress.XtraEditors.XtraMessageBox.Show("App v2 Desarrollada por TheWizWiki");
             iptxt.Text = ini.IniReadValue("ps4", "ip");//lee y deja la IP del .ini
             puertotxt.Text = ini.IniReadValue("ps4", "puerto");//lee y deja puesto el puerto del .ini
         }
@@ -119,7 +119,7 @@ namespace PS4_Payload_inyector
 
         private void mButton4_Click(object sender, EventArgs e)
         {
-            DevExpress.XtraEditors.XtraMessageBox.Show("Puertos según el Firmware\n\nPuerto para 1.76 es 9023\nPuerto para 4.05 es 9020\nPuerto para 4.55 es 9020\nPuerto para 5.05 es 9020");
+            DevExpress.XtraEditors.XtraMessageBox.Show("Puertos según el Firmware\n\nPuerto para 1.76 es 9023\nPuerto para 4.05 es 9020\nPuerto para 4.55 es 9020\nPuerto para 5.05 es 9020\nPuerto para 6.72 es ?");
         }
 
         private void mButton5_Click(object sender, EventArgs e)
@@ -174,6 +174,11 @@ namespace PS4_Payload_inyector
         private void radioButton1_CheckedChanged(object sender, EventArgs e)//puerto 5.05
         {
             puertotxt.Text = "9020";
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)//puerto 6.72
+        {
+            puertotxt.Text = "9030";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)//traduccion al inglés
@@ -249,6 +254,6 @@ namespace PS4_Payload_inyector
             lblestado.Text = "nicht verbunden";
             lblenviado.Text = "nicht gesendet";
             groupBox3.Text = "Sprachauswahl";
-        }
+        }        
     }
 }
