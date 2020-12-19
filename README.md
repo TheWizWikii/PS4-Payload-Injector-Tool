@@ -28,6 +28,7 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 
 - **#valentinbreiz** (codigo incial)
 - **#AlfaModzZ** (alguna ayuda)
+- **#Al Azif** (Payloads repository)
 
 ---
 
