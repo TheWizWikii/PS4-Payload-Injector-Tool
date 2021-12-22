@@ -32,6 +32,7 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 - **#AlfaModzZ** (alguna ayuda)
 - **#Al Azif** (Payloads repository)
 - **#Nazky** (Linux 9.00 Payloads)
+- **#OSM** (Orbis Toolbox Payloads)
 
 ---
 
