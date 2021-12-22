@@ -1,12 +1,12 @@
 # PS4-Payload-Injector-Tool
 
 ---
-![Version](https://img.shields.io/badge/Version-2.1-brightgreen.svg)
+![Version](https://img.shields.io/badge/Version-3.1-brightgreen.svg)
 ### Que és:
 
 Herramienta desarrollada en C# con la cual podremos inyectar / enviar nuestras cargas "payloads" a nuestra consola PS4 con exploit, y es compatible con todos los firmware con exploit. Recordad que los payloads o cargas utiles son archivos .bin. Para usarla simplemente necesitas habilitar ejecuccion de codigo en tu PS4 accediendo al webkit o exploit y despues enviar el payload mediante la aplicación.
 
-![Alt-payload](https://i.imgur.com/oqKMmrf.png)
+![Alt-payload](https://i.imgur.com/cnbeIv2.png)
 
 ---
 
@@ -21,6 +21,8 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 - 5.07
 - 6.72
 - 7.02
+- 7.55
+- 9.00
 
 ---
 
