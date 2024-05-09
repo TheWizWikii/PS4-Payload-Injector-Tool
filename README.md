@@ -23,6 +23,7 @@ Actualmente soporta todos los Firmwares con Kernel Exploit de Playstation 4
 - 7.02
 - 7.55
 - 9.00
+- 11.00
 
 ---
 
